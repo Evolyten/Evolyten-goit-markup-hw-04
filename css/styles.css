@@ -62,11 +62,14 @@ h1,h2,h3,p{
     letter-spacing: 0.03em;
     line-height: 1.2;
     color: var(--link--color);
+    padding: 24px 0;
 }
 
 .nav__logo--second{
     color: var(--black--color);
 }
+
+
 
 .nav__list{
     display: flex;
@@ -361,6 +364,9 @@ text-align: center;
 .footer__container{
     display: flex;
     align-items: baseline;
+}
+.footer__logo{
+    padding: 0;
 }
 
 .address{
